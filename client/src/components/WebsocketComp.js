@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 class WebsocketComp extends Component {
-  ws = new WebSocket('ws://localhost:5000/api')
+  ws = new WebSocket('ws://localhost:8765')
   state = {
     input:'',
     messages:[]
